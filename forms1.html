@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>forms</title>
+        <style>
+            form
+            {
+               background-color:wheat;
+               border:1px solid black;
+               border-radius:25px;
+               margin:65px;
+               width:430px;
+               text-align:center;
+               position:relative;
+               left:370px;
+               height:470px;
+               box-shadow:3px 4px 3px 5px black;
+               /*background-image: url('C:\\Users\\Lenovo\\Downloads\\Web Releteds\\night.webp');*/
+
+               
+            }
+            form:hover{
+               background-color:aqua;
+            }
+            input{
+                width:75%;
+                height:8%;
+                border-radius:20px;
+            }
+            input[type=button]:hover
+            {
+               background-color:chartreuse;
+            }
+            input[type=reset]:hover
+            {
+                background-color:coral;
+            }
+            body
+            {
+                
+                background-image:url('C:\\Users\\Lenovo\\Downloads\\Web Releteds\\unbelievabl.webp');
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+        
+        </style>
+    </head>
+    <body>
+       <div class="forms">
+            
+         <form>
+            <h1 style="color:brown;">LOGIN FORM</h1>
+            <p>Please Enter Your details</p>
+         <label for="name">Name:</label><br>
+         <input type="text" id="name" name="name"  placeholder="Enter a name"><br>
+         <label for="mail">E-mail:</label><br>
+         <input type="email" id="mail" name="name" placeholder="Enter a E-mail"><br>
+         <label for="pwd">PassWord:</label><br>
+         <input type="password" id="pwd" name="pwd" placeholder="Enter a password">
+         <br><br>
+        
+         <input type="reset" value="Reset"><br><br>
+         <input type="button" value="Submit" size="30">
+        </form></div>
+    </body>
+</html>
